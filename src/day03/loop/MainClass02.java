@@ -1,11 +1,11 @@
 package day03.loop;
 /*
- *  2. do ~ while()ë¬¸
- *   whileë¬¸ê³¼ ë¹„ìŠ·í•˜ì§€ë§Œ, ìµœì†Œ í•œë²ˆì€ ì‹¤í–‰ëœë‹¤.
+ *  2. do ~ while()¹®
+ *   while¹®°ú ºñ½ÁÇÏÁö¸¸, ÃÖ¼Ò ÇÑ¹øÀº ½ÇÇàµÈ´Ù.
  * 
  *  do{
- *  	ë°˜ë³µ ìˆ˜í–‰í•  ì½”ë“œ
- *  } while(ì¡°ê±´ë¬¸);
+ *  	¹İº¹ ¼öÇàÇÒ ÄÚµå
+ *  } while(Á¶°Ç¹®);
  * 
  */
 public class MainClass02 {
@@ -16,7 +16,7 @@ public class MainClass02 {
 			count++;
 		} while(count < 100);
 		
-		System.out.println("ê¹ƒí—ˆë¸Œ í…ŒìŠ¤íŠ¸ ì¤‘ì…ë‹ˆë‹¤! ê¹ƒí—ˆë¸Œì—ì„œ...");
+		System.out.println("±êÇãºê Å×½ºÆ® ÁßÀÔ´Ï´Ù!");
 		
 	}
 }
