@@ -15,5 +15,11 @@ public class MainClass02 {
 			System.out.println(count);
 			count++;
 		} while(count < 100);
+		
+		System.out.println("깃허브 테스트 중입니다!");
+		
 	}
 }
+
+
+
