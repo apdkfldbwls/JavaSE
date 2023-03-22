@@ -41,8 +41,6 @@ package day03.loop;
 ******* 
   | | Merry Christmas~*
 
-
-
  
  */
 
