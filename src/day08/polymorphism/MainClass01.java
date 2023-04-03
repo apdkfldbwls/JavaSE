@@ -42,7 +42,6 @@ public class MainClass01 {
 	}
 	
 	public static void classyfiyWeapon(Weapon weapon) {
-		
 		if(weapon instanceof Scope) {
 			System.out.println("저격소총 입니다.");
 		} else {
