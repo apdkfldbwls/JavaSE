@@ -1,6 +1,6 @@
 package day10.mypac;
 
-public class Sports {
+public class Sports implements Cloneable{
 	public String kind;
 	public boolean isGroup; 
 	
@@ -13,4 +13,21 @@ public class Sports {
 	public String toString() {	// toString ¿Á¡§¿«
 		return kind;
 	}
+	
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
+	
+	public Object callClone() throws CloneNotSupportedException {
+		return clone();
+	}
+	
 }
+
+
+
+
+
+
+
