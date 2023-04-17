@@ -31,12 +31,26 @@ public class MainClass04 {
 			bw = new BufferedWriter(fw);
 			
 			// 파일에서 읽은 문자를 버퍼에 쓰고, 버퍼가 가득차면 파일에 한번에 쓰기를 수행함
+			/*
 			int readCharCnt = 0;
-			char[] c = new char[2];
+			char[] c = new char[4];
+			
+			int i = 0;
 			while((readCharCnt = br.read(c)) != -1) {
 				bw.write(c, 0, readCharCnt);
+				System.out.println(i + ": " + new String(c, 0, readCharCnt));
+				i++;
+			}
+			*/
+			
+			String line ="";
+			int i = 0;
+			while((line = br.readLine()) != null) {
+				System.out.println(i+": " + line);
+				i++;
 			}
 			
+			System.out.println("실행 완료!");
 			
 		} catch(Exception e) {
 			e.printStackTrace();
