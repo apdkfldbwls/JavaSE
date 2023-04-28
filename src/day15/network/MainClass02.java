@@ -30,7 +30,6 @@ import java.net.URL;
  * 			/경로1/경로2/페이지이름.html
  * 			/upload/2023/4/14/upload_2023414887
  * 
- * 
  * 	쿼리(query)
  * 		추가로 서버에 보내는 파라미터 (물음표 뒤) 
  *      ?ntype=RANKING
